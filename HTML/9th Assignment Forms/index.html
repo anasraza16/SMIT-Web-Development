@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HTML Forms assignment</title>
+	</head>
+	<body>
+		<h1>Forms</h1>
+		<p>Personal Info</p>
+		<form>
+			<table>
+				<tr>
+					<td>
+			<label>Enter Your Name</label>
+			<input placeholder="name" type="text"  maxlength="11" >
+		</td>
+	<td>
+			<label>Insert your Number</label>
+			<input placeholder="number" type="number" >
+		</td>
+				</tr>
+				</table>
+			<table>	
+				<tr>
+					<td>
+			<label>Enter Your Password</label>
+			<input placeholder="password" type="password"
+		</td>
+		<td>
+			<label>Enter Your D.O.B</label>
+			<input type="date">
+		</td>
+		</tr>
+		</table>
+		<table>
+			<tr>
+				<td>
+			<label>Enter Your Date&Time</label>
+			<input type="datetime-local">
+		</td>
+		<td>
+			<label>Enter Your Email</label>
+			<input  placeholder="email" type="email">
+		</td>
+		</tr>
+		</table>
+		<br />
+		<table>
+			<tr>
+				<td>
+					<label>Message:</label>
+					<textarea placeholder="Type Here"></textarea>
+				</td>
+			</tr>
+		</table>
+		<br />
+		<label>Whats your Gender:</label>
+		<input type="radio" value="male" name="gender" />Male
+		<input type="radio" value="female" name="gender" />Female
+		<input type="radio" value="other" name="gender" />Other
+			<br /><br />
+			<label>Tell Us about your Interest?</label>
+			<br />
+			<input type="checkbox" name="interest"
+			value="Programming" cheked="checked">Programming
+			<input type="checkbox" name="interest"
+			value="designing" cheked="checked">Designing
+			<input type="checkbox" name="interest"
+			value="animation" cheked="checked">Animation
+			<br /><br />
+			<label>Method of Payment:</label>
+			<select>
+				<option value="cash">Cash</option>
+				<option value="card">Card</option>
+				<option value="online">Online</option>
+			</select>
+			<br /><br />
+			<tabel>
+				<tr>
+			<td><button value="submit" name="submit">Submit</button></tr>
+			<td><button value="reset" name="reset">Reset</button></td>
+		</tr>
+			</tabel>
+			
+	</body>
+</html>
