@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #4287f5;
+    border: 3px solid red;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.page-links>li {
+    display: inline;
+    
+}
+
+.page-links>li>a {
+    text-decoration: none;
+    color: #34a853;
+    margin-left: auto;
+}
+
+.product {
+    border: 1px solid lightgray;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+}
+
+.product>img {
+    width: 100%;
+
+}
+
+.screen-size {
+    color: gray;
+}
+
+.product-container {
+    display: flexbox;
+}
