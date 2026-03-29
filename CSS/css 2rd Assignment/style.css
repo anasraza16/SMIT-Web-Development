@@ -1,0 +1,70 @@
+@font-face {
+    font-family: princeofpersia;
+    src: url(assets/fonts/princeofpersia/PRINP___.ttf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.container {
+    background-color: #fff;
+    border: 1px solid #008cb8;
+    border-radius: 5px;
+    width: 45%;
+    padding: 20px;
+}
+
+h1 {
+    color: #000;
+    text-transform: capitalize;
+    font-style: italic;
+    text-indent: 30px;
+    text-shadow: 2px 2px grey;
+    font-family: princeofpersia;
+}
+
+p {
+    text-indent: 20px;
+}
+
+p::first-letter {
+    color: #0982ba;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0923ba;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+input:focus {
+    border: 2px solid #0982ba;
+    outline: none;
+    background-color: whitesmoke;
+}
