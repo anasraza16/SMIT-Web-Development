@@ -1,0 +1,102 @@
+@font-face {
+    font-family: lemonmilk;
+    src: url(assets/fonts/lemon_milk/LEMONMILK-Regular.otf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container1 {
+    text-align: center;
+    background-color: #008cba;
+    box-shadow: 1px 1px grey;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    /* font-style: italic; */
+    text-shadow: 2px 2px #000;
+    color: #fff;
+    font-family: lemonmilk;
+}
+
+.profile-links>a {
+    color: whitesmoke;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+}
+
+.page-links>a {
+    color: white;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-boxes {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: #008cba;
+    border-bottom: 2px solid #008cba;
+    padding-bottom: 10px;
+    text-indent: 20px;
+}
+
+
+p {
+    text-indent: 20px;
+
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #008cba;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: violet;
+}
+
+input:focus {
+    border: 2px solid #008cba;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer {
+    padding: 20px;
+    margin: 20px;
+    background-color: #008cba;
+    box-shadow: 1px 1px grey;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
+
+
