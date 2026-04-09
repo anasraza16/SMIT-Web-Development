@@ -1,0 +1,135 @@
+/* .box1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    animation-name: animation-1;
+    animation-duration: 8s;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    animation-name: animation-1;
+    animation-duration: 6s;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    animation-name: animation-1;
+    animation-duration: 4s;
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    animation-name: animation-1;
+    animation-duration: 2s;
+}
+
+@keyframes animation-1 {
+    from {background-color: yellow;}
+    to {background-color: green;}
+} */
+
+/* 2nd animation */
+
+/* .container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes animation-2 {
+    50% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.box5 {
+    background-color: black;
+    height: 120px;
+    width: 120px;
+    animation-name: animation-2;
+    animation-duration: 2s;
+} */
+
+/* 3rd animation */
+
+/* .box6 {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    animation-name: animation-3;
+    animation-duration: 5s;
+    position: relative;
+    animation-direction: reverse;
+
+}
+
+@keyframes animation-3 {
+    0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:500px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+} */
+
+/* animation 4 */
+
+/* @keyframes animation-4 {
+    from {background-color: red;}
+    to {background-color: bisque;}
+}
+
+.box7 {
+    height: 170px;
+    width: 170px;
+    background-color: blueviolet;
+    animation-name: animation-4;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+} */
+
+/* TRANSITION */
+
+/* @keyframes example {
+
+} */
+
+.transition {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    /* transition-property: background-color width; /* YOU CAN SUGGEST A NAME OF YOUR CHOISE */
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 0s; */
+    transition: ahmed, 3s linear;
+}
+
+.transition:hover {
+    background-color: black;
+    width: 50%;
+    height: 250px;
+
+}
+
+/* h1 {
+    color: blue;
+    float: left;
+}
+
+p {
+    clear: left;
+} */
