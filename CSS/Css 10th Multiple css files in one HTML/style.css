@@ -1,0 +1,15 @@
+@import url(./style1.css);
+@import url(./style2.css);
+@import url(./style3.css);
+@import url(./style4.css);
+
+.box {
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    height: 100px;
+    text-align: center;
+    display: none;
+}
+
+/* ID SELECTOR HAS MORE SPECIFICITY BEACAUSE OF CSS CASCADING RULE THAT IS WHY IS IS SHOWING ON DISPLAY BLOCK or INLINE WHEN THEIR SPECIFIC SCREEN SIZE APPEARS */
