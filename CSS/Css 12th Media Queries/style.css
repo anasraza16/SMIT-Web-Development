@@ -1,0 +1,39 @@
+.box {
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    height: 100px;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width:300px) {
+    #box-1 {
+        display: block;
+        background-color: red;
+    }
+}
+
+@media (min-width:301px) and (max-width:500px) {
+    #box-2 {
+        display: block;
+        background-color: blue;
+    }
+}
+
+@media (min-width:501px) and (max-width:800px) {
+    #box-3 {
+        display: block;
+        background-color: green;
+    }
+}
+
+@media (min-width:801px) {
+    #box-4 {
+        display: block;
+        background-color: yellow;
+        color: black;
+    }
+}
+
+/* ID SELECTOR HAS MORE SPECIFICITY BEACAUSE OF CSS CASCADING RULE THAT IS WHY IS IS SHOWING ON DISPLAY BLOCK or INLINE WHEN THEIR SPECIFIC SCREEN SIZE APPEARS */
