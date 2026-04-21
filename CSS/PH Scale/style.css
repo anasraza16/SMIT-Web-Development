@@ -1,0 +1,134 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* border: 1px solid red; */
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
+    color: #6b6560;
+    padding: 2%;
+    background-color: #e1e2e4;
+    margin-bottom: 20px;
+}
+
+#alkaline {
+    background-color: #3283c5;
+    padding: 1%;
+    color: #ffffff;
+}
+#a {
+    background-color: #2b90cf;
+    padding: 1%;
+    color: #ffffff;
+}
+#b {
+    background-color: #209ed9;
+    padding: 1%;
+    color: #ffffff;
+}
+#c {
+    background-color: #37a9df;
+    padding: 1%;
+    color: #ffffff;
+}
+#d {
+    background-color: #5ab6e6;
+    padding: 1%;
+    color: #ffffff;
+}
+#e {
+    background-color: #77c3ec;
+    padding: 1%;
+    color: #ffffff;
+}
+#f {
+    background-color: #92cbee;
+    padding: 1%;
+    color: #ffffff;
+}
+
+#balance {
+    background-color: #1ab587;
+    padding: 1%;
+    color: #ffffff;
+
+}
+
+#g {
+    background-color: #f5b0d0;
+    padding: 1%;
+    color: #ffffff;
+
+}
+#h {
+    background-color: #f49ec0;
+    padding: 1%;
+    color: #ffffff;
+
+}
+#i {
+    background-color: #f38db6;
+    padding: 1%;
+    color: #ffffff;
+
+}
+#j {
+    background-color: #f179a5;
+    padding: 1%;
+    color: #ffffff;
+
+}
+#k {
+    background-color: #f16695;
+    padding: 1%;
+    color: #ffffff;
+
+}
+#l {
+    background-color: #ef588a;
+    padding: 1%;
+    color: #ffffff;
+
+}
+#acid {
+    background-color: #ee3381;
+    padding: 1%;
+    color: #ffffff;
+
+}
+
+/* ANIMATION */
+
+.rotate:hover {
+    animation: lefttoright 5s infinite;
+}
+
+@keyframes lefttoright {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* TRANSITION */
+
+.highlight {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.highlight:hover {
+    transform: scale(1.03);
+    border: 0.6px solid white;
+    /* box-shadow: 1px 2px 5px #fff; */
+}
